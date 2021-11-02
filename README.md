@@ -1,4 +1,4 @@
-# Curso introducción desarrollo web
+# Cursos introducción desarrollo web
 
 Hola amigos y amigas, os comparto el contenido de estos cursos que realicé con [OpenWebinars](https://openwebinars.net/), con su permiso (ellos mismos lo subieron a YouTube).
 
