@@ -17,8 +17,8 @@ El contenido se reparte en un curso centrado en inicios de HTML y CSS, con nocio
 
 Este es el contenido teórico completo del curso, incluyendo todas las explicaciones, tablas, diagramas y ejemplos.
 
-* [Ver el contenido teórico](./contenido/)
-* [Ficheros de ejemplo utilizados durante el curso](./contenido/ejemplos_curso.zip)
+* [Ver el contenido teórico](./web/)
+* [Ficheros de ejemplo utilizados durante el curso](./web/ejemplos_curso.zip)
 
 ### Vídeos por sección
 
