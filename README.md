@@ -1,24 +1,40 @@
-# Curso introducción desarrollo web
+---
+layout: default
+title: Curso de introducción al desarrollo web
+description: Introducción al desarrollo web con HTML, CSS, JavaScript, responsive design, Bootstrap y PHP
+---
 
-## Sobre este curso
-Hola amigos y amigas, os comparto el contenido de estos cursos que realicé con [OpenWebinars](https://openwebinars.net){:target="_blank"} en 2015, con su permiso (ellos mismos lo subieron a YouTube).
+# Curso de introducción al desarrollo web
 
-Aunque en mi día a día me apasionas los proyectos tecnológicos de alta complejidad, de cara a la docencia me resulta más enriquecedor intentar explicar los primeros pasos a las personas que están empezando en algo. Esto suele ser un gran reto y más difícil de lo que parece cuando ya tienes un nivel avanzado, por lo que a veces la gente que mejor explica no tiene conocimientos profundos, y viceversa. En resumen, **el contenido de estos cursos es muy básico**, no presupone ningún conocimiento en tecnologías web o programación. Será muy útil para los que verdaderamente empiezan desde cero, no mucho para el resto.
+* Nivel: `Iniciación`
+* Conocimientos: `HTML`, `CSS`, `JavaScript`, `Responsive`, `BootStrap`, `PHP`
 
-La segunda advertencia es que **el contenido de estos cursos se creó hace muchos años**, por lo que **varias cosas estará ahora desfasadas**. Pero si lo que te interesa es comprender el por qué, y puedes investigar por tu cuenta un poco más el cómo, es posible que te sea útil.
+## Introducción
+Hola amigos y amigas, os comparto este contenido que realicé con [OpenWebinars](https://openwebinars.net){:target="_blank"} en 2015, con su permiso (ellos mismos lo subieron a YouTube).
+
+Aunque en mi día a día me apasionas los proyectos tecnológicos de alta complejidad, de cara a la docencia me resulta más enriquecedor intentar explicar los primeros pasos a las personas que están empezando en algo. Esto suele ser un gran reto y más difícil de lo que parece cuando ya tienes un nivel avanzado, por lo que a veces la gente que mejor explica no tiene conocimientos profundos, y viceversa. En resumen, **este contenido es muy básico**, no presupone ningún conocimiento en tecnologías web o programación. Será muy útil para los que verdaderamente empiezan desde cero, no mucho para el resto.
+
+La segunda advertencia, y más importante, es que **el contenido de estos cursos se creó hace muchos años**, por lo que **varias cosas estará ahora desfasadas**. Pero si lo que te interesa es comprender el por qué, y puedes investigar por tu cuenta un poco más el cómo, es posible que te sea útil.
 
 Para mayor actualidad, profundidad y un estudio apoyado por un profesor te recomiendo visitar la web de [OpenWebinars](https://openwebinars.net){:target="_blank"}. Aunque tienes alguna pregunta sobre estos cursos en concreto, es posible que pueda resolverla si me consultas por [Twitter en @vicen_herrera](https://twitter.com/Vicen_Herrera){:target="_blank"}, pero considera que **hace muchos años que impartí este contenido, y ya ni siquiera me dedico a la creación de páginas web**.
 
-El contenido se reparte en un curso centrado en inicios de HTML y CSS, con nociones de JavaScript, responsive web design y Bootstrap; así como en una serie de píldoras formativas tematizadas en algunos casos de uso de HTML, CSS y PHP. Existe un curso adicional que impartí de introducción a la programación PHP que no ha sido liberado, pero que tampoco existe ya en el curriculum de OpenWebinars (ha sido sustituido por otro equivalente más actualizado).
+El contenido se reparte en un curso centrado en inicios de HTML y CSS, con nociones de JavaScript, responsive web design y Bootstrap; otro de PHP desde cero (sin ningún framework); así como en una serie de píldoras formativas tematizadas en algunos casos de uso de HTML, CSS y PHP.
 
-## Curso introducción desarrollo web con HTML, CSS y JavaScript
+* [Desarrollo web con HTML, CSS y JavaScript](#desarrollo-web-con-html-css-y-javascript)
+* [Introducción a la programación web con PHP](#programación-web-con-php)
+* [Píldoras formativas programación web](#píldoras-formativas-programación-web)
+
+## Desarrollo web con HTML, CSS y JavaScript
 
 ### Contenido teórico
 
 Este es el contenido teórico completo del curso, incluyendo todas las explicaciones, tablas, diagramas y ejemplos.
 
-* [Ver el contenido teórico](./contenido/)
-* [Ficheros de ejemplo utilizados durante el curso](./contenido/ejemplos_curso.zip)
+1. [Módulo 1: HTML5 Y CSS3](./web/modulo1.md)
+2. [Módulo 2: Responsive Web Design](./web/modulo2.md)
+3. [Módulo 3: Frameworks y JavaScript](./web/modulo3.md)
+* [Ficheros de ejemplo utilizados durante el curso](./web/ejemplos_curso.zip)
+
 
 ### Vídeos por sección
 
@@ -64,14 +80,91 @@ Vídeos individuales:
   * [Scaffolding](https://youtu.be/qKpw8BcvgIA){:target="_blank"}
   * [Preguntas y respuestas VIII](https://youtu.be/WTaXoGw18C0){:target="_blank"}
 
+
 ### Vídeos de las clases íntegras:
+
+El mismo contenido en video anterior, pero en las cuatro sesiones tal como fueron grabadas originalmente.
+
  * [Clase 1](https://youtu.be/LfKOq41qbuc){:target="_blank"}
  * [Clase 2](https://youtu.be/-Y3H8ApbxhI){:target="_blank"}
  * [Clase 3](https://youtu.be/9hF3u5NNPA0){:target="_blank"}
  * [Clase 4](https://youtu.be/pmPLeJn86tc){:target="_blank"}
 
 
+## Programación web con PHP
+
+Para este curso tan solo están disponibles los contenidos teóricos y ejemplos, no los vídeos.
+
+1- [Módulo 1: Introducción](./php/1.md)
+* ¿Qué es PHP?
+* Arquitectura web dinámicas
+* Versiones de PHP
+* Editor de código
+* PHPFiddle
+* Tipos de instalación
+* Stack XAMPP
+* Hosting
+
+2- [Módulo 2: Conceptos básicos de programación y PHP (I)](./php/2.md)
+* Documentación oficial de PHP
+* Código PHP y código HTML
+* Comentarios de código
+* Tratamiento de errores
+* Variables y constantes
+* Tipos de datos básicos
+* Operadores
+* Cadenas, operaciones con cadenas
+* Arrays
+* Ficheros de ejemplo de la lección en vídeo
+
+3- [Módulo 3: Conceptos básicos de programación y PHP (II)](./php/3.md)
+* Estructuras de control y comparaciones lógicas
+* Declaración y uso de funciones básicas
+* Inclusión de ficheros
+* Ficheros de ejemplo de la lección en vídeo
+
+4- [Módulo 4: Programación orientada a objetos](./php/4.md)
+* Objetos y clases
+* Creación y uso de objetos
+* Clases, métodos, visibilidad
+* Clases y métodos estáticos
+* Herencia
+* Clases abstractas, interfaces
+* Cargador de clases
+* Introducción a patrones. Singleton, factoría, iteradores
+
+5- [Módulo 5: Funciones de librería y elementos avanzados](./php/5.md)
+* Etiquetas PHP cortas
+* Cookies & Session
+* Header
+* Declaración de funciones avanzada
+* Programación funcional
+* Conversión y comparación de tipos y objetos
+* Fechas y horas
+* printf, sprintf
+* Manejo de archivos
+* Escritura y lectura
+* Lectura completa, Directorios
+
+6- [Módulo 6: Librerías orientadas a objetos](./php/6.md)
+* Espacio de nombres
+* Convención de uso de nombres
+* Librería PEAR
+* Envío de emails
+* Manipulación de XML
+* PHP y bases de datos, PDO, MySQL
+* Conexión
+* Tratamiento de errores
+* Consulta de datos
+* Parámetros
+* Inserción, borrado, actualización
+* Paginación
+
+[Ficheros de ejemplos](./php/ejemplos_php.zip)
+
 ## Píldoras formativas programación web
+
+Estas píldoras constituyen videos breves que solucionan un caso de uso concreto empleando HTML, CSS, JavaScript o PHP.
 
 Playlist con todos los videos: [playlist](https://www.youtube.com/watch?v=AEYV3geppMY&list=PLf8XMtbjh0dUST4XjW2pQurrz0H_9-bw6&index=1){:target="_blank"}
 

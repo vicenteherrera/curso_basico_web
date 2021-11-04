@@ -1,51 +1,18 @@
+---
+layout: default
+title: Desarrollo web con HTML, CSS y JavaScript
+description: Introducción al desarrollo web con HTML, CSS, JavaScript, responsive design y Bootstrap
+---
 
-# Curso introducción al desarrollo web: HTML, CSS y JavaScript
+[<< Volver al listado completo](../)
+
+# Desarrollo web con HTML, CSS y JavaScript
 
 Vicente Herrera - [@vicen_herrera](https://twitter.com/vicen_herrera)
 
-# Índice
+## Módulo 1: HTML5 Y CSS3
 
-* Módulo 1: HTML5 Y CSS3
-  * Introducción a HTML
-  * Etiquetas, atributos. Cabecera y cuerpo del documento
-  * Etiquetas comunes
-  * La Web Semántica: HTML5
-  * IDEs: Sublime Text
-  * Inspector de código del navegador
-  * Introducción a CSS
-  * Selectores, propiedades más usadas
-  * Modelo de caja, flujo del documento
-  * Reseteo de propiedades base de etiquetas
-  * Las nuevas propiedades CSS3
-  * Aplicando cambios CSS en un CMS
-  * Componentes de Audio y Video, Tipografías web
-  * Compatibilidad en navegadores, arreglos de fallos conocidos
-  * Anexo: Validadores, Preprocesadores
-* Módulo 2: Responsive Web Design
-  * ¿Qué es el RWD?
-  * Tamaños de pantalla y densidades
-  * Diseño Mobile First
-  * Cómo aplicar RWD, Media queries
-  * Ratio de píxeles, densidad de pantalla, imágenes de alta resolución
-* Módulo 3: Frameworks y JavaScript
-  * Introducción a JavaScript
-  * Variables, funciones, operadores
-  * Cadenas, arrays
-  * Manipulación del DOM, eventos
-  * Objetos, propiedades y métodos
-  * Funciones anónimas, lambdas, scope
-  * Depurador JavaScript del navegador
-  * Anexo: Minificadores de código
-  * Un vistazo a las APIs HTML5
-  * Librerías JavaScript, Librería jQuery
-  * Los frameworks Web
-  * Uso de BootStrap
-  * Modificando BootStrap
-  * Uso de jQuery con BootStrap
-
-# Módulo 1: HTML5 Y CSS3
-
-## Introducción a HTML
+### Introducción a HTML
 
 HTML son las siglas de “Hyper Text Media Language”, el lenguaje documental empleado para definir páginas web que pueden ser visualizadas por un navegador.
 
@@ -182,7 +149,7 @@ Existen por tanto multitud de tecnologías asociadas al desarrollo web, pero en 
 </table>
 
 
-## Etiquetas, atributos. Cabecera y cuerpo del documento
+### Etiquetas, atributos. Cabecera y cuerpo del documento
 
 Comencemos a crear ya un documento HTML. Todo documento en HTML5, incluso aunque esté totalmente en blanco, debería contener al menos el siguiente contenido.
 
@@ -265,7 +232,7 @@ mundo!
 
 Esto nos permite utilizar los espacios, tabuladores y nuevas líneas para formatear el código del documento HTML de forma que sea más legible, y quede de manifiesto la anidación de etiquetas, sin que afecte al resultado final. ¿Pero cómo conseguiremos entonces añadir dichos espacios y nuevas líneas cuando lo necesitemos? Lo veremos en el siguiente apartado.
 
-## Etiquetas comunes
+### Etiquetas comunes
 
 Ahora que podemos crear un documento HTML básico, nos interesa conocer qué etiquetas tenemos a nuestra disposición y cómo utilizarlas. 
 
@@ -372,7 +339,7 @@ Este ejemplo presentaría el siguiente aspecto en el navegador:
 Existen muchísimas etiquetas más, y un conocimiento profundo de todas ellas requeriría un curso completo. Pero con esto hemos visto suficientes casos como para poder avanzar en otros contenidos, así como para poder buscar referencias puntuales cuando necesitemos otras etiquetas.
 
 
-## La Web Semántica: HTML5
+### La Web Semántica: HTML5
 
 Las etiquetas estructurales descritas anteriormente proporcionan una visualización específica de su contenido, aunque ésta puede variar ligeramente para cada navegador.
 
@@ -460,7 +427,7 @@ El resultado visualmente en el navegador deja mucho que desear:
 
 Pero precisamente el propósito de las etiquetas semánticas es no proporcionar ningún tipo de estilo adicional, solo marcar el significado de cada una de estas secciones para poder ser entendidas mejor por sistemas automáticos, como los buscadores.
 
-## IDEs: Sublime Text
+### IDEs: Sublime Text
 
 De entre las posibles opciones como editor de código, Sublime Text destaca por ser compatible con todos los sistemas operativos, poder utilizarse de forma gratuita (aunque con ventanas solicitando registrarse de vez en cuando), y ser muy ligero y rápido de cargar. Su sistema de plugins permite además incorporar funcionalidades adicionales.
 
@@ -499,7 +466,7 @@ Si quieres profundizar más en los atajos de teclado y diferentes usos que puede
 [http://www.emezeta.com/articulos/guia-sublime-text](http://www.emezeta.com/articulos/guia-sublime-text)
 
 
-## Inspector de código del navegador
+### Inspector de código del navegador
 
 Una herramienta de enorme utilidad a partir de este momento va a ser el inspector de código del navegador, que nos permite comprobar qué está interpretando este al abrir nuestro fichero, tanto a nivel de HTML como de CSS y JavaScript.
 
@@ -526,7 +493,7 @@ Si en algún momento cometemos un error en un documento, o queremos comprobar c�
 ![Inspector de código en Chrome](images/img8.png "Inspector de código en Chrome")
 
 
-## Introducción a CSS
+### Introducción a CSS
 
 Ahora que somos capaces de construir la estructura del contenido de una web, vamos a aprender a aplicar estilos mediante CSS (Cascade Style Sheets, Hojas de Estilo en Cascada).
 
@@ -583,7 +550,7 @@ Pero, ¿cuál es el formato que tiene el código CSS que vamos a escribir? Se po
 }
 ```
 
-## Selectores, propiedades más usadas
+### Selectores, propiedades más usadas
 
 Los **selectores** son lo que definen **sobre qué elementos se aplican las reglas**
 
@@ -678,7 +645,7 @@ Una buena guía de todas las propiedades y pseudo clases disponibles en CSS es l
 No te sientas abrumado por la cantidad de propiedades, reglas, y combinaciones y trucos que se pueden llegar a hacer con CSS. En la práctica, solo el 20% de las propiedades se utilizan el 90% del tiempo, y casi siempre cuando necesitamos hacer algo poco habitual, podemos buscar ejemplos donde ya esté implementado y aprender de ellos.
 
 
-## Modelo de caja, flujo del documento
+### Modelo de caja, flujo del documento
 
 Un aspecto importante de las propiedades de los elementos HTML que merece una explicación detallada es el llamado modelo de caja.
 
@@ -781,7 +748,7 @@ Y el resultado es el siguiente:
 Un cambio bastante radical frente al mismo documento sin estilos. Vemos como un buen código HTML se la base adecuada para poco a poco tener un aspecto sofisticado a base de ir definiendo reglas CSS. 
 
 
-## Reseteo de propiedades base de etiquetas
+### Reseteo de propiedades base de etiquetas
 
 Hemos visto que muchas etiquetas, como `<h1>`, son dibujadas por el navegador con ciertos estilos predeterminados (tipo de letra, tamaño de letra, márgenes), aunque nosotros no los hayamos definido.
 
@@ -794,7 +761,7 @@ También es posible utilizar una hoja de estilos que resetee todos los estilos p
 * [http://html5doctor.com/html-5-reset-stylesheet/](http://html5doctor.com/html-5-reset-stylesheet/)
 
 
-## Las nuevas propiedades CSS3
+### Las nuevas propiedades CSS3
 
 Con la llegada de HTML5 también llega una nueva versión de CSS3 que, además de estandarizar mucho más el efecto de reglas ya conocidas, introduce algunas nuevas enormemente útiles para conseguir resultados muy efectistas de manera sencilla con muy poco código.
 
@@ -814,7 +781,7 @@ Otras adiciones interesantes son sobre las propiedades que define colores. Con C
 * [http://www.colorzilla.com/gradient-editor/](http://www.colorzilla.com/gradient-editor/)
 
 
-## Aplicando cambios CSS en un CMS
+### Aplicando cambios CSS en un CMS
 
 Para aquellos que estén familiarizados con un CMS como WordPress, Joomla o Drupal, aplicar estos conocimientos sobre CSS en los temas existentes es muy sencillo.
 
@@ -825,7 +792,7 @@ En el caso de WordPress, por ejemplo, podemos utilizar una extensión como Jetpa
 * [https://wordpress.org/plugins/simple-custom-css/](https://wordpress.org/plugins/simple-custom-css/)
 
 
-## Elementos de formulario
+### Elementos de formulario
 
 Los formularios web permiten introducir datos y enviarlos mediante el navegador. Solo con conocimientos de HTML, CSS y JavaScript no podemos hacer casi nada con los datos de estos formularios, pero darles estilo, y validar su contenido previamente a su envío es una labor fundamental que hacer con estas tecnologías.
 
@@ -852,7 +819,7 @@ Dentro de la etiqueta `<form>`, nos encontraremos las siguientes etiquetas:
 Trabajaremos más a fondo con los elementos de formulario en la sección sobre JavaScript.
 
 
-## Componentes de Audio y Video, Tipografías web
+### Componentes de Audio y Video, Tipografías web
 
 HTML5 ha incorporado con algo de controversia etiquetas `<video>` y `<audio>` para incrustar elementos multimedia en las páginas web sin necesidad de recurrir a plugins de terceros como Flash.
 
@@ -905,7 +872,7 @@ font-family: 'Lobster', cursive;
 El especificar `cursive` como fuente alternativa permitirá que si por alguna razón no se puede utilizar la primera opción indicada, haya una segunda con una visualización diferente a la que tienen por defecto otros elementos de la página.
 
 
-## Compatibilidad en navegadores, arreglos de fallos conocidos
+### Compatibilidad en navegadores, arreglos de fallos conocidos
 
 Un problema que nunca hay que olvidar, es que cada navegador puede representar nuestro código HTML y CSS de formas distintas. Esto presenta un problema en tres situaciones:
 
@@ -948,7 +915,7 @@ Cuando un navegador no implemente una características estándar de CSS3 o HTML5
 La necesidad de asegurar la compatibilidad en navegadores y en qué versiones deberá ser evaluada antes de comenzar cada proyecto. Cuanto más compatible queremos que sea la página, sobre todo con navegadores antiguos, más trabajo de revisión y búsqueda de alternativas a las incompatibilidades deberemos realizar. Esta es una labor bastante compleja, que queda para estudio particular una vez se haya asimilado el uso correcto de los estándares en las situaciones más favorables.
 
 
-## Anexo: Validadores, Preprocesadores
+### Anexo: Validadores, Preprocesadores
 
 Hemos dado un vistazo a las sintaxis de HTML y CSS, las etiquetas y propiedades más utilizadas, y por donde expandir nuestro conocimiento de ellas. Un par de referencias adicionales para completar este capítulo son las de los validadores y preprocesadores.
 
@@ -1000,648 +967,5 @@ Eso si, será necesario que generemos el fichero CSS a partir del código LESS o
 * [http://lesscss.org/](http://lesscss.org/)
 
 
-# Módulo 2: Responsive Web Design
-
-## ¿Qué es el RWD?
-
-Responsive Web Design (RWD), o diseño responsivo, es la tendencia moderna en cuanto a desarrollo de páginas web, según la cual se diseña una única página con una misma codificación, que debe adaptarse a los diferentes dispositivos en cuanto a tamaños de pantalla, densidad de píxeles, orientación vertical u horizontal, y elementos de interacción como ratón o pantalla táctil.
-
-Los primeros teléfonos que contaron con navegadores de Internet tenían poca potencia, un tamaño de pantalla muy pequeño, y estos navegadores podían realizar pocas funciones. Por esto era práctica común detectar si el navegador correspondía a un móvil para enviarle una versión diferente de la página, mucho más sencilla y con pocas funciones.
-
-Pero hoy en día los móviles y tablets tienen resoluciones en muchos casos superiores a los ordenadores. Su pantalla puede utilizarse en horizontal o vertical, y no contamos con cursores o ratón para desplazarnos o seleccionar elementos, sino que tenemos que hacerlo pulsando con el dedo (las zonas táctiles tiene por tanto que tener mayor tamaño).
-
-En muchos casos se mantenía esa versión móvil más limitada de las páginas, lo que ofrecía una experiencia de usuario horrible en dispositivos modernos.
-
-El nuevo estándar CSS3 proporciona reglas que permiten construir un solo interfaz que, sin necesidad de recargar siquiera la página actual, se transforma en función del tamaño de la pantalla del navegador, de manera que proporcionamos al usuario la mejor representación posible de la página en todas las circunstancias.
-
-Se teoriza que en el futuro el volverá el diseño adaptable, en el que se envía al navegador una versión específica adaptada a sus capacidades, pero con idea una vez más de proporcionar la mejor experiencia de usuario posible al navegante.
-
-
-## Tamaños de pantalla y densidades
-
-Necesitamos en primer lugar conocer las diferentes resoluciones de pantalla de los dispositivos que van a ser nuestro objetivo. Podemos consultar una extensa tabla en la siguiente referencia: 
-
-* [http://dpi.lv](http://dpi.lv)
-
-Comparemos algunas características de dispositivos como los siguientes:
-
-<table>
-  <tr>
-   <td>
-   </td>
-   <td>Tamaño diagonal pantalla
-   </td>
-   <td>Resolución
-   </td>
-   <td>Densidad Píxeles por Pulgada (PPI)
-   </td>
-  </tr>
-  <tr>
-   <td>Monitor PC convencional
-   </td>
-   <td>21’’
-   </td>
-   <td>1980 x 1090
-   </td>
-   <td>166
-   </td>
-  </tr>
-  <tr>
-   <td>iPhone 6 Plus
-   </td>
-   <td>5,5’’
-   </td>
-   <td>1080x1980
-   </td>
-   <td>401
-   </td>
-  </tr>
-  <tr>
-   <td>Samsung Galaxy S6
-   </td>
-   <td>5,1’’
-   </td>
-   <td>1920x1080
-   </td>
-   <td>532
-   </td>
-  </tr>
-  <tr>
-   <td>iPad Air
-   </td>
-   <td>9,7’’
-   </td>
-   <td>2048 x 1536
-   </td>
-   <td>264
-   </td>
-  </tr>
-</table>
-
-Nos damos cuenta de que tan solo fijándonos en la resolución, no tenemos una información fidedigna de las características del sistema utilizado por el usuario. Un monitor de un PC convencional puede tener la misma resolución que un iPhone 6 o un Samsung Galaxy S6, pero al ser estas pantallas mucho más pequeñas (lo que se comprueba examinando la densidad de píxeles), al usuario le costaría mucho interactuar con la misma página si se representara de forma equivalente en estos dispositivos.
-
-Además, una página diseñada para ordenador tiene en cuenta que la interacción principal se realizará con el ratón, donde la precisión del cursor es muy grande. En un dispositivo táctil, el tamaño de nuestros dedos sobre un móvil tiene un tamaño considerable, y sería deseable que los elementos a pulsar fueran de un tamaño similar a nuestra huella.
-
-
-## Diseño Mobile First
-
-Afrontar este reto de diseño no es fácil. Para ello está demostrado que es mucho más práctico adoptar una filosofía **mobile first**, donde en primer lugar se diseñe cómo se va a visualizar el contenido en un dispositivo móvil, de manera conceptual y creando el código HTML y CSS; para luego especificar cómo alteramos el interfaz para aprovechar las características de la visualización en escritorio.
-
-![Mobile first web design](images/img12.png "Mobile first web design")
-
-Fuente: [http://metamonks.com/mobile-first-vs-responsive](http://metamonks.com/mobile-first-vs-responsive)
-
-En general, el diseño mobile first debe tener en cuenta algunos patrones muy comunes de usabilidad:
-
-* La cabecera no debe ser muy grande, de manera que el contenido no quede muy abajo.
-* Los menús de navegación deberán aparecer condensados, desplegándose solo al pulsar alguna opción para ello.
-* Un conjunto de artículos es apropiado mostrarlos de arriba a abajo, ocupando cada uno el 100% del ancho (o el 50% en dispositivos como tablets con algo más de tamaño).
-* Cualquier contenido lateral no relacionado con el contenido principal, es mejor trasladarlo a que se muestre al pie del documento.
-* Cualquier enlace que se podría mostrar como un texto, es preferible hacerlo como un botón que tenga un tamaño fácil de pulsar. 
-* Si un artículo se puede expandir para visitar su contenido ampliado, hacer tanto el título como la imágen y el texto resumen del artículo “pulsables” para visitar la versión expandida de la misma.
-
-
-## Cómo aplicar RWD, Media queries
-
-Conseguir todo puede parecer muy complicado, pero en realidad se consigue siempre de la misma manera. Utilizaremos una nueva característica de CSS3 llama **media queries**.
-
-Utilizando la palabra clave **media**, podemos establecer entre corchetes que un conjunto de reglas solo se tenga en cuenta para un medio en concreto (la pantalla, o la versión de impresión), o para un rango de resolución específico. En nuestro ejemplo podemos utilizar unas reglas como estas:
-
-```css
-@media screen and (max-width: 300px) {
-    nav { display: none; }
-    article {
-        width: 100%; 
-        height: 100px;
-    }
-}
-```
-
-En el resultado comprobamos al reducir el tamaño del navegador que el comportamiento de la lista de ejemplos ya no es conformar una red de 3 elementos de ancho, sino una lista donde todos tiene un ancho del 100%. También hemos ocultado el menú superior, aunque sería necesario añadir un menú alternativo desplegable.
-
-Otro factor que tenemos que tener en cuenta, es que los dispositivos táctiles al facilitar el hacer zoom pellizcando la pantalla, pueden mostrar un ancho de ésta diferente del ancho del documento. Para forzar a que el documento se muestre exactamente con el ancho de la pantalla, utilizaremos una etiqueta `<meta>` en la cabecera como esta:
-
-```html
-<meta name="viewport" content="width=device-width">
-```
-
-El ejemplo anterior nos ha funcionado reduciendo el tamaño del navegador, y funcionaría con pantallas de poca resolución. Pero los dispositivos de pantalla tipo “retina”, con muchos pixels por pulgada, requerirán reglas en las que utilicemos este factor en lugar del ancho en píxeles.
-
-```css
-@media
-  only screen and ( min-device-pixel-ratio: 2),
-  only screen and ( min-resolution: 192dpi),
-  only screen and ( min-resolution: 2dppx) { 
-    /* Reglas para dispositivos retina */
-}
-```
-
-Definir todas estas particularidades poco a poco es posible, pero siempre es mejor utilizar plantillas o ejemplos ya construidos y aplicarlos al completo. Veremos en la sección sobre Bootstrap como beneficiarnos de un montón de reglas preconstruidas para que las utilicemos de manera sencilla sin tener que definir apenas nada en el CSS.
-
-
-## Ratio de píxeles, densidad de pantalla, imágenes de alta resolución
-
-Hemos visto cómo afecta tanto el ratio de píxeles de la pantalla como la densidad para la experiencia a la hora de construir CSS. Pero, ¿qué pasa con las imágenes?
-
-En una pantalla de mucha resolución pero pequeño tamaño, vamos a querer ampliar la imagen respecto al tamaño de píxel de un ordenador de escritorio. Pero si lo hacemos utilizando la misma imagen original, estaremos desaprovechando la mayor resolución a nuestra disposición.
-
-La solución está en utilizar ficheros de imagen alternativos para pantallas de alta densidad. Cuando se definan mediante CSS y media queries, tenemos que especificar en estas reglas alternativas los nuevos ficheros como cualquier otra regla particular para esa resolución. Más referencias en:
-
-* [http://www.html5rocks.com/en/mobile/high-dpi](http://www.html5rocks.com/en/mobile/high-dpi)
-
-Cuando los utilicemos en etiquetas `<img>`, podemos emplear la propiedad `srcset` para especificar un conjunto de alternativas a la imagen original definida en la propiedad `src`.
-
-Un ejemplo de uso de `srcset` sería el siguiente:
-
-```html
-<img alt="my awesome image"
-  src="banner.jpeg"
-  srcset="banner-HD.jpeg 2x, banner-phone.jpeg 640w, banner-phone-HD.jpeg 640w 2x">
-```
-
-
-# Módulo 3: Frameworks y JavaScript
-
-## Introducción a JavaScript
-
-Ahora que tenemos forma de definir el contenido de la página en HTML, y el aspecto visual en CSS, vamos a añadir algo de programación mediante JavaScript.
-
-Al igual que pasara con CSS, tenemos varias formas de incorporar código JavaScript a nuetro fichero HTML.
-
-**1. Referenciando un fichero .js en la cabecera `<head>`**
-
-```html
-<script src="mificherojs.js" type="text/javascript" />
-```
-
-Especificar el atributo `type` es opcional en HTML5, ya que por defecto se asume que es JavaScript.
-
-**2. Incorporando código incrustado en cualquier parte de la página mediante la etiqueta &lt;script>**
-
-```html
-<script type="text/javascript">
-	alert('Hola Mundo');
-</script>
-```
-
-Este código se ejecuta siempre inmediatamente en el momento que el navegador lo recibe, aunque no haya terminado de procesar el documento HTML completo.
-
-**3. Incorporando código directamente dentro de una etiqueta, como valor de un atributo de evento**
-
-```html
-<a href="#" onclick="javascript: alert('Hola Mundo');">Saludar</a>
-```
-
-## Variables, funciones, operadores
-
-El leguaje JavaScript es muy directo y convencional a la hora de definir variables, funciones y operadores. La sintaxis es parecida a C, C++ y C#, e incluso un poco a PHP.
-
-Cada instrucción se termina en `;`, y los carácteres `{`  y `}` se utilizan para delimitar el ámbito de las funciones y otros elementos como objetos JSON (los veremos más adelante).
-
-```html
-<script>
-	function muestrasuma(numero1, numero2) {
-		var resultado;
-		resultado = numero1 + numero2;
-		alert(resultado);
-	}
-
-	muestrasuma(10, 2);
-</script>
-```
-
-Las variables en JavaScript no tienen un tipo determinado, por lo que habrá que tener mucho cuidado a la hora de mezclar diferentes tipos de datos en las operaciones
-
-
-## Cadenas, arrays
-
-Las cadenas de texto en JavaScript son objetos complejos, que incorporan toda una serie de métodos para manipularlas. La concatenación de cadenas se realiza con el operador `+`.
-
-Las cadenas pueden estar definidas utilizando comillas simples o dobles, siempre que se utilice el mismo tipo de comillas para abrir y cerrar la cadena.
-
-```html
-<script>
-var a = "Hola";
-var b = "Mundo";
-alert(a + " " + b);
-</script>
-```
-
-
-## Manipulación del DOM, eventos
-
-En JavaScript ejecutado desde un documento HTML, contamos con toda una serie de objetos y sus métodos predefinidos que representan todos los objetos visuales del documento, de manera que podamos manipularlos con facilidad. A esto se le llama **Document Object Model (DOM)**.
-
-El objeto `document` que representa a todo el documento cuenta con un método `getElementById`, que devuelve un objeto especificando su atributo id, para que luego podamos manipularlo.
-
-
-```html
-<a href="#" id="mienlace">Enlace demo</a>
-<script>
-document.getElementById("mienlace").style.backgroundColor="orange";
-</script>
-```
-
-
-## Objetos, propiedades y métodos
-
-JavaScript es un lenguaje que además de ser funcional (permite la declaración directa de funciones) también es “basado en objetos”.
-
-Para aquellos que tengan nociones de orientación a objetos, decir que la diferencia en ser “basado en objetos”, es que carecemos de mecanismos sencillos en el lenguaje para definir clases y herencias, y exigir comprobaciones de pertenencia a dichas clases.
-
-Si todo esto no te dice nada, no te preocupes. Lo importante es que en JavaScript en el navegador el **DOM **nos proporciona toda una serie de objetos equivalente a todos los elementos de la página web, que están atribuidos con sus respectivas propiedades equivalente según se ven en cada momento en la página.
-
-Gracias al DOM cualquier cambio que hagamos en estos objetos se traduzca automáticamente en un cambio en la representación visual del mismo en la web.
-
-Pero, ¿cómo se utiliza esto para programar? ¿cómo se acceden a estos objetos y métodos? En primer lugar, partimos de un objeto principal llamado `document`, que contiene a todo el documento HTML.
-
-Éste tiene un método `getElementById` que nos permite obtener un objeto concreto del documento, sabiendo su identificador. A partir de ahí, podríamos por ejemplo acceder a la propiedad `style` que define todos los estilos CSS del objeto, y de nuevo a la propiedad `border`, que permite definir un nuevo estilo para el borde. En conjunto, todo esto se hace con la siguiente linea de código:
-
-```javascript
-document.getElementById('menu-principal').style.border = '1px solid red';
-```
-Un truco muy común es cambiar la propiedad CSS `display` de un objeto de `block` para que sea visible, a `none` para que quede oculto. Esto lo podríamos conseguir así:
-
-```javascript
-document.getElementById('menu-principal').style.display = 'none';
-```
-
-La consola de código de Chrome es muy útil a la hora de explorar las propiedades JavaScript que tiene un objeto, para ello habrá que seleccionar el nodo que queremos inspeccionar, y pulsar en la pestaña de la derecha llamada **Properties**.
-
-![Consola Chrome propiedades JavaScript](images/img13.png "Chrome propiedades JavaScript")
-
-Otro truco útil es utilizar la **consola JavaScript** del inspector de código. Cuando en ella escribimos código JavaScript, se ejecuta inmediatamente sobre la página actual. Para los diferentes objetos del DOM, si los almacenamos en una variable nos ofrece además completación inteligente del código.
-
-![Chrome consola JavaScript](images/img14.png "Chrome consola JavaScript")
-
-Unas buenas referencias al DOM las podéis encontrar en las siguientes webs:
-
-* [https://developer.mozilla.org/es/docs/DOM](https://developer.mozilla.org/es/docs/DOM)
-
-* [http://www.w3.org/DOM/DOMTR](http://www.w3.org/DOM/DOMTR)
-
-* [http://www.w3schools.com/js/js_htmldom.asp](http://www.w3schools.com/js/js_htmldom.asp)
-
-
-## Funciones anónimas, lambdas, scope
-
-En JavaScript es posible definir como parámetro, en lugar de un valor para una variable, directamente una función anónima a ejecutar. Piensa por ejemplo en un método de evento, que nos está pregunta “¿Qué función ejecuto al pulsar esto?”, y la respuesta no es el nombre de la función, sino directamente la función.
-
-Como cada función define su propio ámbito, donde las variables definidas no afectan al resto del código, muchas veces se definen directamente sin que se haya pedido una función anónima que se ejecuta directamente, solo para asegurarnos que el código que contiene no afecta a las variables definidas fuera de ésta.
-
-```javascript
-<script>
-(function(){
-    alert('Función anónima para aislar el ámbito');
-})();
-</script>
-```
-
-
-## Depurador JavaScript del navegador
-
-Obviamente el inspector de código del navegador permite revisar el código JavaScript incorporado en el documeto así como el referenciado en archivos externos.
-
-Además siempre contamos con una **consola** de código, donde se mostrará cualquier error JavaScript ocurrido, o cualquier mensaje enviado a la consola mediante `console.log()` (no disponible en versiones antiguas de Internet Explorer).
-
-La consola nos permite también introducir comandos JavaScript sobre la marcha, en el mismo entorno de la página en el que se está ejecutando todo nuestro JavaScript principal, por lo que es fácil probar comandos o incluso pegar grandes trozos de código para comprobar su efecto antes de incorporarlo en los ficheros.
-
-También contamos siempre con un avanzado depurador, que nos permite incorporar puntos de interrupción al código, que detendrán la ejecución del código JavaScript al llegar a ellos, permitiéndonos inspeccionar el contenido de las variables, o utilizar la consola para realizar pruebas sobre ese punto concreto del código. No es difícil de utilizar si ya has utilizado antes un depurador de código en cualquier otro lenguaje de programación.
-
-
-## Anexo: Minificadores de código
-
-El código JavaScript, así como HTML y CSS, permite utilizar espacios y tabulaciones para separar el contenido de forma que esté más organizado, y sea más sencillo entender a simple vista su estructura.
-
-Todos estos espacios en realidad no aportan nada al navegador, por lo que podríamos pensar en una versión equivalente de estos ficheros donde se omitieran, ganando a cambio algo de reducción de tamaño de ficheros. Cuando tenemos miles de usuarios cargando el contenido de nuestras páginas, esta reducción puede suponer un gran ahorro.
-
-Otro efecto importante de cara a la carga de la página, es que es más óptimo cargar un solo fichero CSS o JS grande, que muchos ficheros separados pequeños. Como también por orden podemos querer tenerlos separados, otra optimización posible es juntar todos estos pequeños ficheros en uno solo.
-
-Si estamos utilizando un CMS, estos tienen a su disposición herramientas o plugins que permiten automatizar estos procesos.
-
-
-## Un vistazo a las APIs HTML5
-
-Las funcionalidades que nos ofrece el DOM son muy amplias, pero dada la complejidad que a día de hoy se le exigen a las páginas webs, se han incoporado a HTML5 una serie de APIs adicionales que permiten una programación de funcionalidades más compleja.
-
-A continuación incluimos un listado de las mismas junto con una descripción para que sirva de referencia frente a profundizar más con alguna de ellas:
-
-* **Canvas**: Librería que permite la realización de dibujos complejos y animaciones en zonas específicas de la página con la etiqueta `<canvas>`
-* **Drag&Drop**: Ofrece una gestión unificada de la funcionalida de arrastrar y soltar en el navegador, independiente de cuál se trate y del sistema operativo.
-* **Geolocation**: Permite relizar consultas para solicitar el geoposicionamiento del usuario.
-* **Storage**: Ofrece mecanismos para el almacenamiento y consulta de grandes cantidades de información, como con una base de datos.
-* **File**: Gestión de la interacción con el sistema de ficheros.
-* **Communication**: Apertura de puertos (sockets) para la comunicación directa con otras aplicaciones.
-* **Web workers**: Facilita el definir procesos que serán realizados en segundo plano mientras continua la ejecución principal del código.
-* **History**: Ofrece una interfaz común para la gestión del historial del navegador, para aquellas web cuya funcionalidad no requiera ir cargando páginas nuevas.
-* **Offline**: Funcionalidad para ofrecer soporte al trabajo sin conexión de la página, como si se tratase de una aplicación cualquiera.
-
-
-## Librerías JavaScript, Librería jQuery
-
-No tenemos que crear todo el código que necestemos en JavaScript por nosotros mismos, podemos apoyarnos en el uso de librerías JavaScript que ponen en nuestras manos una gran cantidad de código y facilidades para su uso. Entre las principales librerías están:
-
-* **jQuery**: Una de las más utilizadas, ofrece funcionalidades de base muy interesantes que veremos más adelante. Dispone de componentes visuales a través de otras librerías adicionales como jQuery UI y jQuery Mobile.  
- [https://jquery.com](https://jquery.com)
-* **ExtJS**: Un sistema de Widgets que permite construir interfaces y aplicaciones web tan complejas como una aplicación de escritorio. El único de esta lista que no es software libre, requiriendo licencia para proyectos comerciales.  
- [https://www.sencha.com/products/extjs](https://www.sencha.com/products/extjs)
-* **ReactJS**: Un complejo framework basado en el patrón MVC (modelo, vista, controlador), donde es posible utilizar tan solo la parte de “vista” para dibujar Widgets. Permite crear controles de interfaz de usuario con estado interno que reaccionan ante el cambio del mismo, actualizándose automáticamente.  
- [http://facebook.github.io/react](http://facebook.github.io/react)
-* **Angular JS**: Otro complejo framework para construir aplicaciones web basadas en el patrón MVC (modelo, vista y controlador). Se utiliza programando en Typescript (una especie de variante de JavaScript más formal), se obtiene el mayor rendimiento con él cuando se utiliza su sistemática de trabajo para todo el desarrollo de la aplicación.  
- [https://angularjs.org](https://angularjs.org)
-
-
-**jQuery**
-
-Esta librería es la más utilizada en proyectos web, ofreciendo una serie de funcionalidades básicas sobre las cuales otras librerías pueden complementar con funciones más complejas (por ejemplo, añadiendo “widgets”, elementos visuales de interfaz de usuario).
-
-En pocas palabras, jQuery permite especificar un selector de una forma equivalente a la que se utiliza en CSS, para sobre el conjunto de elementos seleccionados, realizar operaciones estándar DOM sobre ellas, u otras adicionales que jQuery proporciona.
-
-En su origen, jQuery tenía la gran virtud de que estos métodos adicionales proporcionados eran compatibilizados respecto a todos los navegadores, permitiendo un código único, compacto y sencillo. Hoy en día los navegadores modernos se comportan muy bien respecto a los estándares, pero aún así jQuery ofrece una forma de programar cosas muy interesantes en solo un par de líneas muy comprensibles (ver [http://youmightnotneedjquery.com](http://youmightnotneedjquery.com) ).
-
-Para utilizar jQuery, podemos descargarnos y enlazar la librería (normalmente ya minificada) desde [https://jquery.com](https://jquery.com), o bien podemos enlazar directamente con la que Google hospeda online para su uso por cualquiera utilizando la siguiente línea en la cabecera, lo que será más rápido:
-
-```html
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-```
-
-Más información sobre el hospedaje de librerías por Google en:
-
-[https://developers.google.com/speed/libraries/?hl=es](https://developers.google.com/speed/libraries/?hl=es)
-
-Si nos descantamos por esta última opción, es importante recordar que necesitaremos tener conexión a internet para que funcione nuestra funcionalidad con jQuery.
-
-jQuery fundamenta en el uso del operador $, que como hemos mencionado, devuelve un elementos o elementos coincidentes con el selector CSS proporcionado.
-
-
-```javascript
-$('section#blogroll article ul').addClass('milista');
-```
-
-En el ejemplo anterior, obtendríamos todos los elementos de lista `<ul>` que estivueran dentro de artículos `<article>`, que a su vez estuvieran dentro de el elemento `<section>` con identificador `blogroll`. A estos elementos, le añadiríamos la clase CSS `milista`, en adición a cualquier clase que tuvieran ya establecida. 
-
-A continuación una serie de llamadas de ejemplo de jQuery nos permiten comprobar qué tipo de cosas se pueden hacer con esta librería:
-
-```javascript
-//Retirar clase CSS
-$(el).removeClass(className);
-
-//Ocultar elemento/s
-$(el).hide();
-
-//Mostrar elemto/s
-$(el).show();
-
-//Ejecuta una función sobre cada elemento
-$(selector).each(function(i, el){
-    //...
-});
-
-//Coincide con selector
-$(el).is('.my-class');
-
-//Obtener coordenadas
-$(el).offset();
-
-//Establecer estilo
-$(el).css('border-width', '20px');
-
-//Añadir evento Off
-$(el).off(eventName, eventHandler);
-
-//Añadir evento On
-$(el).on(eventName, eventHandler);
-
-//Ejecutar cuando el documento HTML esté preparado
-$(document).ready(function(){
-    //...
-});
-```
-
-
-## Los frameworks Web
-
-Para complementar la reuitilización de una base a la hora de trabajar en proyectos web, además de las librerías JavaScript, contamos con los **frameworks web**, que proporcionan definiciones CSS de base (también llamadas “boilerplate”), para definir cabeceras, mensajes popup, distribuciones en columnas, etc. Estas además están perfectamente diseñadas para un comportamiento **responsive** frente al paradigma del diseño **mobile first**.
-
-Entre estos frameworks, los más utilizados son:
-
-* **BootStrap**: Desarrollado por Twitter como software libre, el más utilizado. Integra sistema de rejilla responsive, normalización frente a diferencias entre navegadores, clases para elementos visuales comunes, un tema de colores y tipografía, y opcionalmente algunos widgets jQueryUI. Hablaremos extensivamente de él más adelante.
-* **Foundation**: Similar a Bootstrap, es compatible con navegadores más antiguos, y su estilo visual es más sobrio y funcional.
-* **HTML Kickstart**: Además del framework, contamos con modelos en Photoshop de todos los elementos de interfaz de usuario para ser utilizados en la creación de bocetos por los diseñadores.
-    * [http://www.99lime.com/elements](http://www.99lime.com/elements)
-
-Además de estos, existen otros frameworks más complejos que aúnan además a su vez AngularJS o ReactJS.
-
-
-## Uso de BootStrap
-
-Podemos descargar Bootstrap de su página para enlazar con los ficheros CSS y JS necesarios, o bien al igual que con jQuery, podemos utilizar una fuente externa (en este caso de MaxCDN), para enlazar directamente con los ficheros de BootStrap alojados por ellos, incluyendo este código en la cabecera `<head>` de la siguiente forma:
-
-
-```html
-<!-- Última versión compilada y minificada de CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-<!-- Tema opcional -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-```
-
-Una vez hecho esto, podemos escribir el código HTML que deseemeos, y utilizar las clases y utilidades que nos ofrece.
-
-Tomemos como ejemplo el siguiente código para &lt;body>, modificado desde uno de los propios ejemplos proporcionados en la página de BootStrap:
-
-```html
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Project name</a>
-    </div>
-  </div>
-</nav>
-<!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="jumbotron">
-  <div class="container">
-    <h1>Hello, world!</h1>
-    <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content.</p>
-    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-  </div>
-</div>
-<div class="container">
-  <!-- Example row of columns -->
-  <div class="row">
-    <div class="col-md-4">
-      <h2>Heading</h2>
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-      <h2>Heading</h2>
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-   </div>
-    <div class="col-md-4">
-      <h2>Heading</h2>
-      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper.</p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-    </div>
-  </div>
-  <hr>
-  <footer>
-    <p>&copy; Company 2015</p>
-  </footer>
-</div> <!-- /container -->
-```
-
-Comprobamos que tenemos una barra superior, un encabezado grande, y tres elementos en tres columnas para terminar con un breve pie. Además los enlaces aparecen estilados como atractivos botones.
-
-![Ejemplo Bootstrap](images/img15.png "Ejemplo Bootstrap")
-
-Para ello, hemos utilizado las siguentes clases CSS:
-
-* `navbar` y derivados: definición de la barra superior
-* `jumbotron`: encabezado con letras grandes
-* `btn` y derivados: estilado de un enlace como un botón.
-* `row`: define el comienzo de una fila (en el ejemplo tan solo hay una).
-* `col-md-4`: Establece que tendremos 3 columnas del mismo ancho (el número 4 de la clase es engañoso, no tiene nada que ver con la distribución de columnas), y que en dispositivos móviles se reduciran a una para aumentar la legibilidad. 
-
-No es necesario que memoricemos estas clases. Tenemos un listado con ejemplos de todos los elementos visuales de tema con ejemplos en la siguiente referencia:
-
-* [http://getbootstrap.com/examples/theme](http://getbootstrap.com/examples/theme)
-
-Cambiando las clases que definimos en las columnas, podemos hacer que se repartan en proporciones diferentes de ancho. También podemos añadir clases adicionales que modifican únicamente el comportamiento que tendrán estas columnas solo para dispositivos móviles. Tenemos ejemplos de las diferentes composiciones de rejillas en filas y columnas en las referencias:
-
-* [http://getbootstrap.com/examples/grid](http://getbootstrap.com/examples/grid)
-
-* [http://getbootstrap.com/2.3.2/scaffolding.html](http://getbootstrap.com/2.3.2/scaffolding.html)
-
-Un resumen teórico del “Bootstrap schafolding” (grid system) muy asequible lo encontraréis en:
-
-* [http://www.w3schools.com/bootstrap/bootstrap_grid_system.asp](http://www.w3schools.com/bootstrap/bootstrap_grid_system.asp)
-
-El aspecto de este mismo ejemplo cuando reducimos el ancho del navegador, está totalmente adaptado a una perspectiva de uso de dispositivos móviles, sin que hayamos tenido que hacer nada más para ello:
-
-![Ejemplo Bootstrap mobile](images/img16.png "Ejemplo Bootstrap mobile")
-
-Si quieres más información sobre cómo comenzar a utilizar BootStrap, puedes consultar su página en:
-
-* [http://getbootstrap.com/getting-started](http://getbootstrap.com/getting-started)
-
-
-## Modificando BootStrap
-
-Hemos visto que podemos trabajar con BootStrap aplicando al 100% las clases que ya define, sin tener que construir ningún código CSS por nuestra parte para personalizar el aspecto de los elementos.
-
-También es posible añadir reglas CSS propias que modifiquen de forma particular algún elemento. Para hacer esto, tan solo tendremos que añadir nuestra hoja de estilos en `<head>` al final de las de BootStrap (para que se apliquen en segundo lugar, y puedan sobreescribir comportamientos previos).
-
-Pero habrá que tener mucho cuidado, ya que las reglas de BootStrap son complejas, y tienen en cuenta la representación de los elementos en todo tipo de resoluciones. Una práctica obligatoria será comprobar siempre que las modificaciones que realicemos no rompen la correcta visualización en resoluciones menores que la del escritorio (o mayores densidades de píxeles) para dispositivos.
-
-Siempre es mejor construir clases adicionales que añadamos a las ya existentes para un elemento. Un ejemplo lo podemos encontrar en la web [translate.twitter.com](https://translate.twitter.com), en la que para personalizar un botón (definido por la clase `btn`), han creado una clase propia llamada `btn-tt`:
-
-```css
-/* Modificar el texto y el color de fondo en los tres estados
-   principales del botón: default, hover y active. */
-.btn-ttc,
-.btn-ttc:hover,
-.btn-ttc:active {
-  color: white; background-color: #007da7;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-}
- 
-/* Fondo con gradiente de colores */
-.btn-ttc {
-  background-repeat: repeat-x;
-  background-image: linear-gradient(top, #009ED2 0%, #007DA7 100%);
-}
-```
-
-Si creamos dos botones con el estilo por defecto, y el especificado por nuestra nueva clase, notaremos la diferencia:
-
-```html
-<a class="btn btn-default" href="#" role="button">View details &raquo;</a>
-<a class="btn btn-ttc" href="#" role="button">View details &raquo;</a>
-```
-
-Y el resultado del botón usando el estilo por defecto, y el especificado por nosotros:
-
-![Ejemplo estilo botones Bootstrap](images/img17.png "Ejemplo estilo botones Bootstrap")
-
-Existen herramientas que nos permiten de manera sencilla modificar los colores del tema base de BootStrap de manera visual, y obtener el fichero CSS resultante de la nueva especificación, como la de la siguiente referencia: [http://stylebootstrap.info](http://stylebootstrap.info)
-
-También podemos revisar y descargar temas alternativos ya creados desde repositorios como el siguiente gratuito: [http://bootswatch.com](http://bootswatch.com)
-
-Incluso existen editores visuales donde podemos construir la totalidad de la web basada en BootStrap sin tener que escribir una sola linea de código, aunque es un servicio en la nube que no ofrece un plan gratuito: [https://jetstrap.com](https://jetstrap.com)
-
-Otra alternativa es modificar los ficheros de variables del tema que viene con BootStrap. Éste no está directamente codificado en CSS, sino en un lenguaje intermedio llamado LESS que permite utilización de variables y expresiones, con el que luego se generan los ficheros CSS.
-
-Un fichero a modificar en LESS para alterar los colores sería `variables.less`:
-
-* [https://github.com/twbs/bootstrap/blob/master/less/variables.less](https://github.com/twbs/bootstrap/blob/master/less/variables.less)
-
-También podemos crear nuestros propios ficheros LESS, y seleccionar qué módulos de BootStrap vamos a utilizar para generar desde los ficheros LESS originales solo el código CSS estríctamente necesario, lo que nos aportará rapidez en la descarga de la página, y mayor fluidez en su funcionamiento.
-
-
-## Uso de jQuery con BootStrap
-
-Algunos de los plugins de BootStrap requieren jQuery, pero su uso es opcional. Si lo queremos incorporar, así como todos los plugins compilados en un solo fichero, tendremos que añadir en el cuerpo del documento:
-
-```html
-<!-- jQuery (necesario para alguno de los plugins) -->
-<script 
-   src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-<!-- Última versión compilada y minificada de JavaScript -->
-<script 
-   src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-```
-
-Existen muchas cosas en la web que no se pueden conseguir solo con HTML y CSS, y BootStrap incorpora ciertos plugins de uso común en JavaScript para seguir facilitándonos el trabajo.
-
-Uno de ellos nos permite dibujar una ventana “modal”, que se muestre encima de nuestra web.
-
-```html
-<!-- Botón que lanza ventana modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Lanzar ventana modal
-</button>
-
-<!-- Ventana modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Título modal</h4>
-      </div>
-      <div class="modal-body">
-        Mensaje ventana modal
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary">Guardar</button>
-      </div>
-    </div>
-  </div>
-</div>
-```
-
-Al probar el ejemplo y pulsar el botón etiquetado “Lanzar ventana modal”, aparecerá sobre nuestra página una ventana con el siguiente mensaje:
-
-![Ejemplo modal Bootstrap](images/img18.png "Ejemplo modal Bootstrap")
-
-Otras funcionalidades que podemos encontrar en JavaScript con BootStrap son:
-
-* Dibujado menús dropdown
-* ScrollSpy: menús donde se resalta la subsección en la que está el scroll dentro de un documento
-* Pestañas
-* Tooltips: Mensajes emergentes al pasar el ratón
-* Popover: Mensajes emergentes más avanzados
-* Alertas: Barra de mensaje ocultable
-* Acciones adicionales sobre botones
-* Zonas colapsables
-* Acordeon
-* Carrousel: Galería deslizante de imágenes
-* Afix: Posiciona un elemento fijo solo cuando va a salir por la zona superior de la ventana del navegador.
-
-Una referencia exhaustiva de las funcionalidades JavaScript que obtenemos con BootStrap la encontramos explicada en el siguiente enlace:
-
-[http://getbootstrap.com/javascript](http://getbootstrap.com/javascript)
+---
+[Siguiente >>](./modulo2.md)
