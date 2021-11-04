@@ -14,9 +14,9 @@ Para mayor actualidad, profundidad y un estudio apoyado por un profesor te recom
 
 El contenido se reparte en un curso centrado en inicios de HTML y CSS, con nociones de JavaScript, responsive web design y Bootstrap; otro de PHP desde cero (sin ningún framework); así como en una serie de píldoras formativas tematizadas en algunos casos de uso de HTML, CSS y PHP.
 
-* [Desarrollo web con HTML, CSS y JavaScript](#desarrollo-web-con-html,-CSS-y-javascript)
-* [Introducción a la programación web con PHP](#programacion-web-con-php)
-* [Píldoras formativas programación web](#pildoras-formativas-programación-web)
+* [Desarrollo web con HTML, CSS y JavaScript](#desarrollo-web-con-html-css-y-javascript)
+* [Introducción a la programación web con PHP](#programación-web-con-php)
+* [Píldoras formativas programación web](#píldoras-formativas-programación-web)
 
 ## Desarrollo web con HTML, CSS y JavaScript
 
