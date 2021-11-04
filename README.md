@@ -17,8 +17,11 @@ El contenido se reparte en un curso centrado en inicios de HTML y CSS, con nocio
 
 Este es el contenido teórico completo del curso, incluyendo todas las explicaciones, tablas, diagramas y ejemplos.
 
-* [Ver el contenido teórico](./web/)
+1. [Módulo 1: HTML5 Y CSS3](./web/modulo1.md)
+2. [Módulo 2: Responsive Web Design](./web/modulo2.md)
+3. [Módulo 3: Frameworks y JavaScript](./web/modulo3.md)
 * [Ficheros de ejemplo utilizados durante el curso](./web/ejemplos_curso.zip)
+
 
 ### Vídeos por sección
 
@@ -64,14 +67,90 @@ Vídeos individuales:
   * [Scaffolding](https://youtu.be/qKpw8BcvgIA){:target="_blank"}
   * [Preguntas y respuestas VIII](https://youtu.be/WTaXoGw18C0){:target="_blank"}
 
+
 ### Vídeos de las clases íntegras:
+
+El mismo contenido en video anterior, pero en las cuatro sesiones tal como fueron grabadas originalmente.
+
  * [Clase 1](https://youtu.be/LfKOq41qbuc){:target="_blank"}
  * [Clase 2](https://youtu.be/-Y3H8ApbxhI){:target="_blank"}
  * [Clase 3](https://youtu.be/9hF3u5NNPA0){:target="_blank"}
  * [Clase 4](https://youtu.be/pmPLeJn86tc){:target="_blank"}
 
 
+## Curso introducción programación web con PHP
+
+1- [Módulo 1: ¿Qué es PHP?](./php/1.md)
+* ¿Qué es PHP?
+* Arquitectura web dinámicas
+* Versiones de PHP
+* Entorno de desarrollo
+* Editor de código
+* PHPFiddle
+* Tipos de instalación
+* Stack XAMPP
+* Hosting
+
+2- [Módulo 2: Conceptos básicos de programación y PHP (I)](./php/2.md)
+* Documentación oficial de PHP
+* Código PHP y código HTML
+* Comentarios de código
+* Tratamiento de errores
+* Variables y constantes
+* Tipos de datos básicos
+* Operadores
+* Cadenas, operaciones con cadenas
+* Arrays
+* Ficheros de ejemplo de la lección en vídeo
+
+3- [Módulo 3: Conceptos básicos de programación y PHP (II)](./php/3.md)
+* Estructuras de control y comparaciones lógicas
+* Declaración y uso de funciones básicas
+* Inclusión de ficheros
+* Ficheros de ejemplo de la lección en vídeo
+
+4- [Módulo 4: Programación orientada a objetos](./php/4.md)
+* Objetos y clases
+* Creación y uso de objetos
+* Clases, métodos, visibilidad
+* Clases y métodos estáticos
+* Herencia
+* Clases abstractas, interfaces
+* Cargador de clases
+* Introducción a patrones. Singleton, factoría, iteradores
+
+5- [Módulo 5: Funciones de librería y elementos avanzados](./php/5.md)
+* Etiquetas PHP cortas
+* Cookies & Session
+* Header
+* Declaración de funciones avanzada
+* Programación funcional
+* Conversión y comparación de tipos y objetos
+* Fechas y horas
+* printf, sprintf
+* Manejo de archivos
+* Escritura y lectura
+* Lectura completa, Directorios
+
+6- [Módulo 6: Librerías orientadas a objetos](./php/6.md)
+* Espacio de nombres
+* Convención de uso de nombres
+* Librería PEAR
+* Envío de emails
+* Manipulación de XML
+* PHP y bases de datos, PDO, MySQL
+* Conexión
+* Tratamiento de errores
+* Consulta de datos
+* Parámetros
+* Inserción, borrado, actualización
+* Paginación
+
+[Ficheros de ejemplos](./php/ejemplos_php.zip)
+
 ## Píldoras formativas programación web
+
+Estas píldoras constituyen videos breves que solucionan un caso de uso concreto empleando HTML, CSS, JavaScript o PHP.
 
 Playlist con todos los videos: [playlist](https://www.youtube.com/watch?v=AEYV3geppMY&list=PLf8XMtbjh0dUST4XjW2pQurrz0H_9-bw6&index=1){:target="_blank"}
 
