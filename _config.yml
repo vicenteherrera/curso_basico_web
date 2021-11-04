@@ -1,8 +1,11 @@
 title: Curso de introducción al desarrollo web
-remote_theme: pages-themes/cayman@v0.2.0
+
+remote_theme: vicenteherrera/jekyll-theme-vicenteherrera@main
+
 google_analytics: UA-822637-16
-github:
-  is_project_page: false
+
+sass:
+  style: compressed
 
 plugins:
   - jekyll-remote-theme
