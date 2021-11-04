@@ -1,4 +1,10 @@
-[Volver al listado completo](../)
+---
+layout: default
+title: Programación web con PHP
+description: Introducción a la programación web en backend con PHP
+---
+
+[<< Volver al listado completo](../)
 
 # Programación web con PHP
 
@@ -72,3 +78,7 @@ Vicente Herrera - [@vicen_herrera](https://twitter.com/vicen_herrera)
 * Paginación
 
 [Ficheros de ejemplos](./ejemplos_php.zip)
+
+
+---
+[<< Volver al listado completo](../)

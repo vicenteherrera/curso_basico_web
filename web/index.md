@@ -1,4 +1,10 @@
-[Volver al listado completo](../)
+---
+layout: default
+title: Desarrollo web con HTML, CSS y JavaScript
+description: Introducción al desarrollo web con HTML, CSS, JavaScript, responsive design y Bootstrap
+---
+
+[<< Volver al listado completo](../)
 
 # Desarrollo web con HTML, CSS y JavaScript
 
@@ -6,7 +12,6 @@ Vicente Herrera - [@vicen_herrera](https://twitter.com/vicen_herrera)
 
 ## Índice
  
-
 1- [Módulo 1: HTML5 Y CSS3](./modulo1.md)
   * Introducción a HTML
   * Etiquetas, atributos. Cabecera y cuerpo del documento
@@ -53,3 +58,6 @@ Vicente Herrera - [@vicen_herrera](https://twitter.com/vicen_herrera)
 
 [Ficheros de ejemplo utilizados durante el curso](./web/ejemplos_curso.zip)
 
+
+---
+[<< Volver al listado completo](../)

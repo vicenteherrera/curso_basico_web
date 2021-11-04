@@ -1,4 +1,10 @@
-[Volver al listado completo](../)
+---
+layout: default
+title: Desarrollo web con HTML, CSS y JavaScript
+description: Introducción al desarrollo web con HTML, CSS, JavaScript, responsive design y Bootstrap
+---
+
+[<< Volver al listado completo](../)
 
 # Desarrollo web con HTML, CSS y JavaScript
 
@@ -161,6 +167,6 @@ Un ejemplo de uso de `srcset` sería el siguiente:
   srcset="banner-HD.jpeg 2x, banner-phone.jpeg 640w, banner-phone-HD.jpeg 640w 2x">
 ```
 
-#
 
+---
 [Siguiente >>](./modulo3.md)

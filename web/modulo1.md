@@ -1,4 +1,10 @@
-[Volver al listado completo](../)
+---
+layout: default
+title: Desarrollo web con HTML, CSS y JavaScript
+description: Introducción al desarrollo web con HTML, CSS, JavaScript, responsive design y Bootstrap
+---
+
+[<< Volver al listado completo](../)
 
 # Desarrollo web con HTML, CSS y JavaScript
 
@@ -961,6 +967,5 @@ Eso si, será necesario que generemos el fichero CSS a partir del código LESS o
 * [http://lesscss.org/](http://lesscss.org/)
 
 
-#
-
+---
 [Siguiente >>](./modulo2.md)

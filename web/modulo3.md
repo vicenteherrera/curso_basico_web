@@ -1,3 +1,9 @@
+---
+layout: default
+title: Desarrollo web con HTML, CSS y JavaScript
+description: Introducción al desarrollo web con HTML, CSS, JavaScript, responsive design y Bootstrap
+---
+
 [<< Volver al listado completo](../)
 
 # Desarrollo web con HTML, CSS y JavaScript
@@ -488,3 +494,6 @@ Una referencia exhaustiva de las funcionalidades JavaScript que obtenemos con Bo
 
 [http://getbootstrap.com/javascript](http://getbootstrap.com/javascript)
 
+
+---
+[<< Volver al listado completo](../)
