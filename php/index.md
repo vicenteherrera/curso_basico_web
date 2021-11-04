@@ -1,16 +1,15 @@
 [Volver al listado completo](../)
 
-# Curso introducción programación web con PHP
+# Programación web con PHP
 
 Vicente Herrera - [@vicen_herrera](https://twitter.com/vicen_herrera)
 
 ## Índice
 
-1- [Módulo 1: ¿Qué es PHP?](./1.md)
+1- [Módulo 1: Introducción](./1.md)
 * ¿Qué es PHP?
 * Arquitectura web dinámicas
 * Versiones de PHP
-* Entorno de desarrollo
 * Editor de código
 * PHPFiddle
 * Tipos de instalación

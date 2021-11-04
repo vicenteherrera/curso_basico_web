@@ -1,17 +1,24 @@
 # Curso introducción desarrollo web
 
-## Sobre este curso
-Hola amigos y amigas, os comparto el contenido de estos cursos que realicé con [OpenWebinars](https://openwebinars.net){:target="_blank"} en 2015, con su permiso (ellos mismos lo subieron a YouTube).
+* Nivel: `Iniciación`
+* Conocimientos: `HTML`, `CSS`, `JavaScript`, `Responsive`, `BootStrap`, `PHP`
 
-Aunque en mi día a día me apasionas los proyectos tecnológicos de alta complejidad, de cara a la docencia me resulta más enriquecedor intentar explicar los primeros pasos a las personas que están empezando en algo. Esto suele ser un gran reto y más difícil de lo que parece cuando ya tienes un nivel avanzado, por lo que a veces la gente que mejor explica no tiene conocimientos profundos, y viceversa. En resumen, **el contenido de estos cursos es muy básico**, no presupone ningún conocimiento en tecnologías web o programación. Será muy útil para los que verdaderamente empiezan desde cero, no mucho para el resto.
+## Introducción
+Hola amigos y amigas, os comparto este contenido que realicé con [OpenWebinars](https://openwebinars.net){:target="_blank"} en 2015, con su permiso (ellos mismos lo subieron a YouTube).
 
-La segunda advertencia es que **el contenido de estos cursos se creó hace muchos años**, por lo que **varias cosas estará ahora desfasadas**. Pero si lo que te interesa es comprender el por qué, y puedes investigar por tu cuenta un poco más el cómo, es posible que te sea útil.
+Aunque en mi día a día me apasionas los proyectos tecnológicos de alta complejidad, de cara a la docencia me resulta más enriquecedor intentar explicar los primeros pasos a las personas que están empezando en algo. Esto suele ser un gran reto y más difícil de lo que parece cuando ya tienes un nivel avanzado, por lo que a veces la gente que mejor explica no tiene conocimientos profundos, y viceversa. En resumen, **este contenido es muy básico**, no presupone ningún conocimiento en tecnologías web o programación. Será muy útil para los que verdaderamente empiezan desde cero, no mucho para el resto.
+
+La segunda advertencia, y más importante, es que **el contenido de estos cursos se creó hace muchos años**, por lo que **varias cosas estará ahora desfasadas**. Pero si lo que te interesa es comprender el por qué, y puedes investigar por tu cuenta un poco más el cómo, es posible que te sea útil.
 
 Para mayor actualidad, profundidad y un estudio apoyado por un profesor te recomiendo visitar la web de [OpenWebinars](https://openwebinars.net){:target="_blank"}. Aunque tienes alguna pregunta sobre estos cursos en concreto, es posible que pueda resolverla si me consultas por [Twitter en @vicen_herrera](https://twitter.com/Vicen_Herrera){:target="_blank"}, pero considera que **hace muchos años que impartí este contenido, y ya ni siquiera me dedico a la creación de páginas web**.
 
-El contenido se reparte en un curso centrado en inicios de HTML y CSS, con nociones de JavaScript, responsive web design y Bootstrap; así como en una serie de píldoras formativas tematizadas en algunos casos de uso de HTML, CSS y PHP. Existe un curso adicional que impartí de introducción a la programación PHP que no ha sido liberado, pero que tampoco existe ya en el curriculum de OpenWebinars (ha sido sustituido por otro equivalente más actualizado).
+El contenido se reparte en un curso centrado en inicios de HTML y CSS, con nociones de JavaScript, responsive web design y Bootstrap; otro de PHP desde cero (sin ningún framework); así como en una serie de píldoras formativas tematizadas en algunos casos de uso de HTML, CSS y PHP.
 
-## Curso introducción desarrollo web con HTML, CSS y JavaScript
+* [Desarrollo web con HTML, CSS y JavaScript](#desarrollo-web-con-html,-CSS-y-javascript)
+* [Introducción a la programación web con PHP](#programacion-web-con-php)
+* [Píldoras formativas programación web](#pildoras-formativas-programación-web)
+
+## Desarrollo web con HTML, CSS y JavaScript
 
 ### Contenido teórico
 
@@ -78,13 +85,14 @@ El mismo contenido en video anterior, pero en las cuatro sesiones tal como fuero
  * [Clase 4](https://youtu.be/pmPLeJn86tc){:target="_blank"}
 
 
-## Curso introducción programación web con PHP
+## Programación web con PHP
 
-1- [Módulo 1: ¿Qué es PHP?](./php/1.md)
+Para este curso tan solo están disponibles los contenidos teóricos y ejemplos, no los vídeos.
+
+1- [Módulo 1: Introducción](./php/1.md)
 * ¿Qué es PHP?
 * Arquitectura web dinámicas
 * Versiones de PHP
-* Entorno de desarrollo
 * Editor de código
 * PHPFiddle
 * Tipos de instalación

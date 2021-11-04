@@ -1,6 +1,6 @@
 [<< Volver al listado completo](../)
 
-# Curso introducción al desarrollo web: HTML, CSS y JavaScript
+# Desarrollo web con HTML, CSS y JavaScript
 
 ## Módulo 3: Frameworks y JavaScript
 
