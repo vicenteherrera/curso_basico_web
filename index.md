@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: frontpage
 title: Curso de introducción al desarrollo web
 description: Introducción al desarrollo web con HTML, CSS, JavaScript, responsive design, Bootstrap y PHP
 ---
