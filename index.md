@@ -36,10 +36,10 @@ El contenido se reparte en un curso centrado en inicios de HTML y CSS, con nocio
 
 Este es el contenido teórico completo del curso, incluyendo todas las explicaciones, tablas, diagramas y ejemplos.
 
-1. [Módulo 1: HTML5 Y CSS3](./web/modulo1.md)
-2. [Módulo 2: Responsive Web Design](./web/modulo2.md)
-3. [Módulo 3: Frameworks y JavaScript](./web/modulo3.md)
-* [Ficheros de ejemplo utilizados durante el curso](./web/ejemplos_curso.zip)
+  * [Módulo 1: HTML5 Y CSS3](./web/modulo1.md)
+  * [Módulo 2: Responsive Web Design](./web/modulo2.md)
+  * [Módulo 3: Frameworks y JavaScript](./web/modulo3.md)
+  * [Ficheros de ejemplo utilizados durante el curso](./web/ejemplos_curso.zip)
 
 
 ### Vídeos por sección
