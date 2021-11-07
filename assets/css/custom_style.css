@@ -1,0 +1,11 @@
+/* Custom CSS for this website */
+
+a.solid-btn.lesson {
+    background-image: url(/cursos_basicos_web/assets/icons/book.svg);
+} 
+a.video {
+  background-image: url(/cursos_basicos_web/assets/icons/youtube.svg);
+}
+a.file {
+  background-image: url(/cursos_basicos_web/assets/icons/file-earmark-arrow-down.svg);
+}
