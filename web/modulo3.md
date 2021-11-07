@@ -4,7 +4,7 @@ title: Desarrollo web con HTML, CSS y JavaScript
 description: Introducción al desarrollo web con HTML, CSS, JavaScript, responsive design y Bootstrap
 ---
 
-[<< Volver al listado completo](../)
+[<< Volver al listado completo](../){:class="solid-btn text-center"}
 
 # Desarrollo web con HTML, CSS y JavaScript
 
@@ -76,7 +76,7 @@ alert(a + " " + b);
 ```
 
 
-### Manipulación del DOM, eventos
+### DOM: Objetos, propiedades y eventos
 
 En JavaScript ejecutado desde un documento HTML, contamos con toda una serie de objetos y sus métodos predefinidos que representan todos los objetos visuales del documento, de manera que podamos manipularlos con facilidad. A esto se le llama **Document Object Model (DOM)**.
 
@@ -89,9 +89,6 @@ El objeto `document` que representa a todo el documento cuenta con un método `g
 document.getElementById("mienlace").style.backgroundColor="orange";
 </script>
 ```
-
-
-### Objetos, propiedades y métodos
 
 JavaScript es un lenguaje que además de ser funcional (permite la declaración directa de funciones) también es “basado en objetos”.
 
@@ -157,7 +154,7 @@ La consola nos permite también introducir comandos JavaScript sobre la marcha, 
 También contamos siempre con un avanzado depurador, que nos permite incorporar puntos de interrupción al código, que detendrán la ejecución del código JavaScript al llegar a ellos, permitiéndonos inspeccionar el contenido de las variables, o utilizar la consola para realizar pruebas sobre ese punto concreto del código. No es difícil de utilizar si ya has utilizado antes un depurador de código en cualquier otro lenguaje de programación.
 
 
-### Anexo: Minificadores de código
+### Minificadores de código
 
 El código JavaScript, así como HTML y CSS, permite utilizar espacios y tabulaciones para separar el contenido de forma que esté más organizado, y sea más sencillo entender a simple vista su estructura.
 
@@ -496,4 +493,4 @@ Una referencia exhaustiva de las funcionalidades JavaScript que obtenemos con Bo
 
 
 ---
-[<< Volver al listado completo](../)
+[<< Volver al listado completo](../){:class="solid-btn text-center"}

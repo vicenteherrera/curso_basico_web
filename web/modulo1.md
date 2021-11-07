@@ -2,9 +2,10 @@
 layout: default
 title: Desarrollo web con HTML, CSS y JavaScript
 description: Introducción al desarrollo web con HTML, CSS, JavaScript, responsive design y Bootstrap
+toc: true
 ---
 
-[<< Volver al listado completo](../)
+[<< Volver al listado completo](../){:class="solid-btn text-center"}
 
 # Desarrollo web con HTML, CSS y JavaScript
 
@@ -39,15 +40,16 @@ Puede que no esté siendo tan fácil como parece… ¿Qué problemas nos podemos
 
 Resueltos estos posibles problemas, podemos intentar facilitarnos el trabajo utilizando un editor dedicado para HTML (aunque tan solo con el bloc de notas es posible hacer alguna cosa sencilla). A continuación os recomiendo varios editores gratuitos, aunque también existen otras alternativas comerciales más complejas:
 
-
-* Sublime Text: [http://www.sublimetext.com/](http://www.sublimetext.com/)
-    * Para Windows, MacOS o Linux, la versión gratuita puede mostrar mensajes ocasionales pidiéndonos que nos registremos. Uno de los más utilizados por los expertos. La versión 2 se actualizó por última vez en 2013, así que os recomiendo la versión 3 aunque esté etiquetada como beta.
-* Notepad++: [https://notepad-plus-plus.org/](https://notepad-plus-plus.org/)
-    * Gratuito, solo para Windows, casi todo el mundo lo tiene instalado como alternativa puntual, aunque no lo utilicemos todos los días.
-* Notepad2-mod: [https://xhmikosr.github.io/notepad2-mod/](https://xhmikosr.github.io/notepad2-mod/)
-    * Una alternativa muy ligera al Bloc de notas de Windows, poco conocida, pero bastante utilizada en mi caso, preferible para mí incluso a Notepad++ (aunque no incorpora pestañas)
-* gEdit: [http://projects.gnome.org/gedit/](http://projects.gnome.org/gedit/)
-    * Los usuarios de Linux lo traerán ya instalado si utilizan el escritorio Gnome
+* **Visual Studio Code**: [https://code.visualstudio.com/](https://code.visualstudio.com/){:target=_blank}
+  * Para Windows, MacOs o Linux, totalmente libre.
+* **Sublime Text**: [http://www.sublimetext.com/](http://www.sublimetext.com/){:target=_blank}
+  * Para Windows, MacOS o Linux, la versión gratuita puede mostrar mensajes ocasionales pidiéndonos que nos registremos.
+* **Notepad++**: [https://notepad-plus-plus.org/](https://notepad-plus-plus.org/){:target=_blank}
+  * Gratuito, solo para Windows, casi todo el mundo lo tiene instalado como alternativa puntual, aunque no lo utilicemos todos los días.
+* **Notepad2-mod**: [https://xhmikosr.github.io/notepad2-mod/](https://xhmikosr.github.io/notepad2-mod/){:target=_blank}
+  * Una alternativa muy ligera al Bloc de notas de Windows, poco conocida, pero bastante utilizada en mi caso, preferible para mí incluso a Notepad++ (aunque no incorpora pestañas)
+* **gEdit**: [http://projects.gnome.org/gedit/](http://projects.gnome.org/gedit/){:target=_blank}
+  * Los usuarios de Linux lo traerán ya instalado si utilizan el escritorio Gnome
 
 Obviamente las alternativas comerciales son totalmente válidas, como Dreamweaver o Webstorm, pero en este curso queremos concentrarnos en los fundamentos del lenguaje, y no en las cualidades de una herramienta en concreto. 
 
@@ -148,8 +150,7 @@ Existen por tanto multitud de tecnologías asociadas al desarrollo web, pero en 
   </tr>
 </table>
 
-
-### Etiquetas, atributos. Cabecera y cuerpo del documento
+### Uso de etiquetas
 
 Comencemos a crear ya un documento HTML. Todo documento en HTML5, incluso aunque esté totalmente en blanco, debería contener al menos el siguiente contenido.
 
@@ -232,7 +233,7 @@ mundo!
 
 Esto nos permite utilizar los espacios, tabuladores y nuevas líneas para formatear el código del documento HTML de forma que sea más legible, y quede de manifiesto la anidación de etiquetas, sin que afecte al resultado final. ¿Pero cómo conseguiremos entonces añadir dichos espacios y nuevas líneas cuando lo necesitemos? Lo veremos en el siguiente apartado.
 
-### Etiquetas comunes
+### Etiquetas HTML5
 
 Ahora que podemos crear un documento HTML básico, nos interesa conocer qué etiquetas tenemos a nuestra disposición y cómo utilizarlas. 
 
@@ -761,7 +762,7 @@ También es posible utilizar una hoja de estilos que resetee todos los estilos p
 * [http://html5doctor.com/html-5-reset-stylesheet/](http://html5doctor.com/html-5-reset-stylesheet/)
 
 
-### Las nuevas propiedades CSS3
+### Propiedades CSS3
 
 Con la llegada de HTML5 también llega una nueva versión de CSS3 que, además de estandarizar mucho más el efecto de reglas ya conocidas, introduce algunas nuevas enormemente útiles para conseguir resultados muy efectistas de manera sencilla con muy poco código.
 
@@ -819,7 +820,7 @@ Dentro de la etiqueta `<form>`, nos encontraremos las siguientes etiquetas:
 Trabajaremos más a fondo con los elementos de formulario en la sección sobre JavaScript.
 
 
-### Componentes de Audio y Video, Tipografías web
+### Componentes de Audio y Video
 
 HTML5 ha incorporado con algo de controversia etiquetas `<video>` y `<audio>` para incrustar elementos multimedia en las páginas web sin necesidad de recurrir a plugins de terceros como Flash.
 
@@ -848,6 +849,8 @@ Por lo demás, a estas alturas el uso general de etiquetas y atributos debe ser 
 [https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video)
 
 [http://www.html5rocks.com/en/tutorials/video/basics/](http://www.html5rocks.com/en/tutorials/video/basics/)
+
+## Tipografías web
 
 Las tipografías web requieren aclarar ciertos conceptos previos. En principio, podemos definir que un texto utilice una tipografía mediante la propiedad CSS `font-family`. Pero solo tendrá en cuenta tipografías muy genéricas, o aquellas que ya están instaladas en el ordenador.
 
@@ -915,7 +918,7 @@ Cuando un navegador no implemente una características estándar de CSS3 o HTML5
 La necesidad de asegurar la compatibilidad en navegadores y en qué versiones deberá ser evaluada antes de comenzar cada proyecto. Cuanto más compatible queremos que sea la página, sobre todo con navegadores antiguos, más trabajo de revisión y búsqueda de alternativas a las incompatibilidades deberemos realizar. Esta es una labor bastante compleja, que queda para estudio particular una vez se haya asimilado el uso correcto de los estándares en las situaciones más favorables.
 
 
-### Anexo: Validadores, Preprocesadores
+### Validadores, Preprocesadores
 
 Hemos dado un vistazo a las sintaxis de HTML y CSS, las etiquetas y propiedades más utilizadas, y por donde expandir nuestro conocimiento de ellas. Un par de referencias adicionales para completar este capítulo son las de los validadores y preprocesadores.
 
@@ -968,4 +971,4 @@ Eso si, será necesario que generemos el fichero CSS a partir del código LESS o
 
 
 ---
-[Siguiente >>](./modulo2.md)
+[Siguiente >>](./modulo2.md){:class="solid-btn text-center"}

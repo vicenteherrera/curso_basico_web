@@ -4,7 +4,7 @@ title: Desarrollo web con HTML, CSS y JavaScript
 description: Introducción al desarrollo web con HTML, CSS, JavaScript, responsive design y Bootstrap
 ---
 
-[<< Volver al listado completo](../)
+[<< Volver al listado completo](../){:class="solid-btn text-center"}
 
 # Desarrollo web con HTML, CSS y JavaScript
 
@@ -109,7 +109,7 @@ En general, el diseño mobile first debe tener en cuenta algunos patrones muy co
 * Si un artículo se puede expandir para visitar su contenido ampliado, hacer tanto el título como la imágen y el texto resumen del artículo “pulsables” para visitar la versión expandida de la misma.
 
 
-### Cómo aplicar RWD, Media queries
+### Como aplicar RWD, Media queries
 
 Conseguir todo puede parecer muy complicado, pero en realidad se consigue siempre de la misma manera. Utilizaremos una nueva característica de CSS3 llama **media queries**.
 
@@ -169,4 +169,4 @@ Un ejemplo de uso de `srcset` sería el siguiente:
 
 
 ---
-[Siguiente >>](./modulo3.md)
+[Siguiente >>](./modulo3.md){:class="solid-btn text-center"}

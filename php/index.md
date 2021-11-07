@@ -4,7 +4,7 @@ title: Programación web con PHP
 description: Introducción a la programación web en backend con PHP
 ---
 
-[<< Volver al listado completo](../)
+[<< Volver al listado completo](../){:class="solid-btn text-center"}
 
 # Programación web con PHP
 
@@ -81,4 +81,4 @@ Vicente Herrera - [@vicen_herrera](https://twitter.com/vicen_herrera)
 
 
 ---
-[<< Volver al listado completo](../)
+[<< Volver al listado completo](../){:class="solid-btn text-center"}

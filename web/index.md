@@ -4,7 +4,7 @@ title: Desarrollo web con HTML, CSS y JavaScript
 description: Introducción al desarrollo web con HTML, CSS, JavaScript, responsive design y Bootstrap
 ---
 
-[<< Volver al listado completo](../)
+[<< Volver al listado completo](../){:class="solid-btn text-center"}
 
 # Desarrollo web con HTML, CSS y JavaScript
 
@@ -60,4 +60,4 @@ Vicente Herrera - [@vicen_herrera](https://twitter.com/vicen_herrera)
 
 
 ---
-[<< Volver al listado completo](../)
+[<< Volver al listado completo](../){:class="solid-btn text-center"}
