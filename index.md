@@ -105,7 +105,9 @@ Otros enlaces de vídeo:
 
 ## Programación web con PHP
 
-Aprende desde cero programación backend empleando lenguaje PHP 
+Aprende desde cero programación backend empleando lenguaje PHP  
+
+[**Programación web con PHP**](./php/1.md){:class="solid-btn lesson"}  
 
 [**Módulo 2.1: Introducción**](./php/1.md){:class="solid-btn lesson"}  
 [¿Qué es PHP?](./php/1.md#){:class="solid-btn lesson"}  
