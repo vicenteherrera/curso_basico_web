@@ -36,9 +36,9 @@ El contenido se reparte en un curso centrado en inicios de HTML y CSS, con nocio
 
 ## Desarrollo web con HTML, CSS y JavaScript
 
-[Desarrollo web con HTML, CSS y JavaScript](./web/modulo1.md){:class="solid-btn lesson"}  
+[**Desarrollo web con HTML, CSS y JavaScript**](./web/modulo1.md){:class="solid-btn lesson"}  
 
-[Módulo 1.1: HTML5 Y CSS3](./web/modulo1.md){:class="solid-btn lesson"}   
+[**Módulo 1.1: HTML5 Y CSS3**](./web/modulo1.md){:class="solid-btn lesson"}   
 [Introducción a HTML](./web/modulo1.md#introducción-a-html){:class="solid-btn lesson"}[vídeo](https://youtu.be/vdoOJ9LQKN8"){:target="_blank"}{:class="solid-btn solid-btn-sm video"}  
 [Uso de etiquetas](./web/modulo1.md#uso-de-etiquetas){:class="solid-btn lesson"}[vídeo](https://youtu.be/PwRPvycI9jg){:target="_blank"}{:class="solid-btn solid-btn-sm video"}  
 [Etiquetas HTML5](./web/modulo1.md#etiquetas-html5){:class="solid-btn lesson"}[vídeo](https://youtu.be/PwRPvycI9jg){:target="_blank"}{:class="solid-btn solid-btn-sm video"}  
@@ -62,7 +62,7 @@ El contenido se reparte en un curso centrado en inicios de HTML y CSS, con nocio
 [Compatibilidad con navegadores](./web/modulo1.md##compatibilidad-en-navegadores-arreglos-de-fallos-conocidos){:class="solid-btn lesson"}[vídeo](https://youtu.be/E4gg2WPqjuk){:target="_blank"}{:class="solid-btn solid-btn-sm video"}  
 [Validadores y prepocesadores](./web/modulo1.md#validadores-preprocesadores){:class="solid-btn lesson"}[vídeo](https://youtu.be/VxSCI_m6BCQ){:target="_blank"}{:class="solid-btn solid-btn-sm video"}  
 
-[Módulo 1.2: Responsive Web Design](./web/modulo2.md){:class="solid-btn lesson"}  
+[**Módulo 1.2: Responsive Web Design**](./web/modulo2.md){:class="solid-btn lesson"}  
 [Diseño responsive](./web/modulo2.md#qué-es-el-rwd){:class="solid-btn lesson"}[vídeo](https://youtu.be/xNqnkhvPS2w){:target="_blank"}{:class="solid-btn solid-btn-sm video"}  
 [Tamaños de pantalla y densidades](./web/modulo2.md#tamaños-de-pantalla-y-densidades){:class="solid-btn lesson"}  
 [Diseño Mobile First](./web/modulo2.md#diseño-mobile-first){:class="solid-btn lesson"}  
@@ -70,7 +70,7 @@ El contenido se reparte en un curso centrado en inicios de HTML y CSS, con nocio
 [Ratio de píxeles, densidad de pantalla, imágenes de alta resolución](./web/modulo2.md#ratio-de-píxeles-densidad-de-pantalla-imágenes-de-alta-resolución){:class="solid-btn lesson"}  
 [Preguntas y respuestas IV](https://youtu.be/FY1Nx55sLoM){:target="_blank"}{:class="solid-btn video"}    
 
-[Módulo 1.3: Frameworks y JavaScript](./web/modulo3.md){:class="solid-btn lesson"}  
+[**Módulo 1.3: Frameworks y JavaScript**](./web/modulo3.md){:class="solid-btn lesson"}  
 [Introducción a JavaScript: Hola mundo](./web/modulo3.md#introducción-a-javascript){:class="solid-btn lesson"}[vídeo](https://youtu.be/pnrHSKDUsLg){:target="_blank"}{:class="solid-btn solid-btn-sm video"}    
 [Variables, funciones, operadores](./web/modulo3.md#variables-funciones-operadores){:class="solid-btn lesson"}[vídeo](https://youtu.be/GMWex6px8E8){:target="_blank"}{:class="solid-btn solid-btn-sm video"}  
 [Cadenas, arrays](./web/modulo3.md#cadenas-arrays){:class="solid-btn lesson"}  
@@ -107,7 +107,7 @@ Otros enlaces de vídeo:
 
 Aprende desde cero programación backend empleando lenguaje PHP 
 
-[Módulo 2.1: Introducción](./php/1.md){:class="solid-btn lesson"}  
+[**Módulo 2.1: Introducción**](./php/1.md){:class="solid-btn lesson"}  
 [¿Qué es PHP?](./php/1.md#){:class="solid-btn lesson"}  
 [Arquitectura web dinámicas](./php/1.md#){:class="solid-btn lesson"}  
 [Versiones de PHP](./php/1.md#){:class="solid-btn lesson"}  
@@ -117,7 +117,7 @@ Aprende desde cero programación backend empleando lenguaje PHP
 [Stack XAMPP](./php/1.md#){:class="solid-btn lesson"}  
 [Hosting](./php/1.md#){:class="solid-btn lesson"}  
 
-[Módulo 2.2: Conceptos básicos de programación y PHP (I)](./php/2.md){:class="solid-btn lesson"}  
+[**Módulo 2.2: Conceptos básicos de programación y PHP (I)**](./php/2.md){:class="solid-btn lesson"}  
 [Documentación oficial de PHP](./php/2.md#){:class="solid-btn lesson"}  
 [Código PHP y código HTML](./php/2.md#){:class="solid-btn lesson"}  
 [Comentarios de código](./php/2.md#){:class="solid-btn lesson"}  
@@ -129,13 +129,13 @@ Aprende desde cero programación backend empleando lenguaje PHP
 [Arrays](./php/2.md#){:class="solid-btn lesson"}  
 [Ficheros de ejemplo de la lección en vídeo](./php/2.md#){:class="solid-btn lesson"}  
 
-[Módulo 2.3: Conceptos básicos de programación y PHP (II)](./php/3.md){:class="solid-btn lesson"}  
+[**Módulo 2.3: Conceptos básicos de programación y PHP (II)**](./php/3.md){:class="solid-btn lesson"}  
 [Estructuras de control y comparaciones lógicas](./php/3.md#){:class="solid-btn lesson"}  
 [Declaración y uso de funciones básicas](./php/3.md#){:class="solid-btn lesson"}  
 [Inclusión de ficheros](./php/3.md#){:class="solid-btn lesson"}  
 [Ficheros de ejemplo de la lección en vídeo](./php/3.md#){:class="solid-btn lesson"}  
 
-[Módulo 2.4: Programación orientada a objetos](./php/4.md){:class="solid-btn lesson"}  
+[**Módulo 2.4: Programación orientada a objetos**](./php/4.md){:class="solid-btn lesson"}  
 [Objetos y clases](./php/4.md#){:class="solid-btn lesson"}  
 [Creación y uso de objetos](./php/4.md#){:class="solid-btn lesson"}  
 [Clases, métodos, visibilidad](./php/4.md#){:class="solid-btn lesson"}  
@@ -145,7 +145,7 @@ Aprende desde cero programación backend empleando lenguaje PHP
 [Cargador de clases](./php/4.md#){:class="solid-btn lesson"}  
 [Introducción a patrones. Singleton, factoría, iteradores](./php/4.md#){:class="solid-btn lesson"}  
 
-[Módulo 2.5: Funciones de librería y elementos avanzados](./php/5.md){:class="solid-btn lesson"}  
+[**Módulo 2.5: Funciones de librería y elementos avanzados**](./php/5.md){:class="solid-btn lesson"}  
 [Etiquetas PHP cortas](./php/5.md#){:class="solid-btn lesson"}  
 [Cookies & Session](./php/5.md#){:class="solid-btn lesson"}  
 [Header](./php/5.md#){:class="solid-btn lesson"}  
@@ -158,7 +158,7 @@ Aprende desde cero programación backend empleando lenguaje PHP
 [Escritura y lectura](./php/5.md#){:class="solid-btn lesson"}  
 [Lectura completa, Directorios](./php/5.md#){:class="solid-btn lesson"}  
 
-[Módulo 2.6: Librerías orientadas a objetos](./php/6.md){:class="solid-btn lesson"}  
+[**Módulo 2.6: Librerías orientadas a objetos**](./php/6.md){:class="solid-btn lesson"}  
 [Espacio de nombres](./php/6.md#){:class="solid-btn lesson"}  
 [Convención de uso de nombres](./php/6.md#){:class="solid-btn lesson"}  
 [Librería PEAR](./php/6.md#){:class="solid-btn lesson"}  
