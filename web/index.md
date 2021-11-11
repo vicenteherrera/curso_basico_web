@@ -12,7 +12,7 @@ Vicente Herrera - [@vicen_herrera](https://twitter.com/vicen_herrera)
 
 ## Índice
  
-1- [Módulo 1: HTML5 Y CSS3](./modulo1.md)
+1- [Módulo 1: HTML5 Y CSS3](./1.md)
   * Introducción a HTML
   * Etiquetas, atributos. Cabecera y cuerpo del documento
   * Etiquetas comunes
@@ -29,7 +29,7 @@ Vicente Herrera - [@vicen_herrera](https://twitter.com/vicen_herrera)
   * Compatibilidad en navegadores, arreglos de fallos conocidos
   * Anexo: Validadores, Preprocesadores
 
-2- [Módulo 2: Responsive Web Design](./modulo2.md)
+2- [Módulo 2: Responsive Web Design](./2.md)
 
   * ¿Qué es el RWD?
   * Tamaños de pantalla y densidades
@@ -38,7 +38,7 @@ Vicente Herrera - [@vicen_herrera](https://twitter.com/vicen_herrera)
   * Ratio de píxeles, densidad de pantalla, imágenes de alta resolución  
 
   
-3- [Módulo 3: Frameworks y JavaScript](./web/modulo3.md)
+3- [Módulo 3: Frameworks y JavaScript](./web/3.md)
 
   * Introducción a JavaScript
   * Variables, funciones, operadores
