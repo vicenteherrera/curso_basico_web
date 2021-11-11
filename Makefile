@@ -1,13 +1,12 @@
-.PHONY: doc-prerequisites doc-serve-watch
+.PHONY: prerequisites serve-watch build install test
 
-all: doc-prerequisites doc-serve-watch
+all: prerequisites serve-watch
 
-
-doc-prerequisites:
+prerequisites:
 	gem install bundler
 	bundle install
 
-doc-serve-watch:
+serve-watch:
 	bundle exec jekyll serve --watch
 
 test:
