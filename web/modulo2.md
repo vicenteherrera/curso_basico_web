@@ -2,13 +2,16 @@
 layout: default
 title: Desarrollo web con HTML, CSS y JavaScript
 description: Introducción al desarrollo web con HTML, CSS, JavaScript, responsive design y Bootstrap
+breadcrumb1: Desarrollo web con HTML, CSS y JavaScript
+breadcrumb1_link: ./modulo1
+breadcrumb2: Módulo 1.2
 ---
 
 [<< Volver al listado completo](../){:class="solid-btn text-center"}
 
 # Desarrollo web con HTML, CSS y JavaScript
 
-## Módulo 2: Responsive Web Design
+## Módulo 1.2: Responsive Web Design
 
 ### ¿Qué es el RWD?
 
