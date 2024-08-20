@@ -7,7 +7,7 @@ description: Introducción al desarrollo web con HTML, CSS, JavaScript, responsi
 
 # Curso de introducción al desarrollo web
 
-Autor: **Vicente Herrera** - [@vicen_herrera](https://twitter.com/vicen_herrera)  
+Autor: **Vicente Herrera** - [@v1z3n](https://twitter.com/v1z3n)  
 Nivel: **Iniciación**  
 Conocimientos: <span class="badge rounded-pill bg-danger white" style="color:white">HTML</span>
 <span class="badge rounded-pill bg-danger white" style="color:white">CSS</span>
@@ -25,7 +25,7 @@ Aunque en mi día a día me apasionas los proyectos tecnológicos de alta comple
 
 La segunda advertencia, y más importante, es que **el contenido de estos cursos se creó hace muchos años**, por lo que **varias cosas estará ahora desfasadas**. Pero si lo que te interesa es comprender el por qué, y puedes investigar por tu cuenta un poco más el cómo, es posible que te sea útil.
 
-Para mayor actualidad, profundidad y un estudio apoyado por un profesor te recomiendo visitar la web de [OpenWebinars](https://openwebinars.net){:target="_blank"}. Aunque tienes alguna pregunta sobre estos cursos en concreto, es posible que pueda resolverla si me consultas por [Twitter en @vicen_herrera](https://twitter.com/Vicen_Herrera){:target="_blank"}, pero considera que **hace muchos años que impartí este contenido, y ya ni siquiera me dedico a la creación de páginas web**.
+Para mayor actualidad, profundidad y un estudio apoyado por un profesor te recomiendo visitar la web de [OpenWebinars](https://openwebinars.net){:target="_blank"}. Aunque tienes alguna pregunta sobre estos cursos en concreto, es posible que pueda resolverla si me consultas por [Twitter en @v1z3n](https://twitter.com/v1z3n){:target="_blank"}, pero considera que **hace muchos años que impartí este contenido, y ya ni siquiera me dedico a la creación de páginas web**.
 
 El contenido se reparte en un curso centrado en inicios de HTML y CSS, con nociones de JavaScript, responsive web design y Bootstrap; otro de PHP desde cero (sin ningún framework); así como en una serie de píldoras formativas tematizadas en algunos casos de uso de HTML, CSS y PHP.
 

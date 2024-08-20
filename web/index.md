@@ -8,7 +8,7 @@ description: Introducción al desarrollo web con HTML, CSS, JavaScript, responsi
 
 # Desarrollo web con HTML, CSS y JavaScript
 
-Vicente Herrera - [@vicen_herrera](https://twitter.com/vicen_herrera)
+Vicente Herrera - [@v1z3n](https://twitter.com/v1z3n)
 
 
 [**Desarrollo web con HTML, CSS y JavaScript**](./1.md){:class="solid-btn lesson"}  

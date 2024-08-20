@@ -8,7 +8,7 @@ description: Introducción a la programación web en backend con PHP
 
 # Programación web con PHP
 
-Vicente Herrera - [@vicen_herrera](https://twitter.com/vicen_herrera)
+Vicente Herrera - [@v1z3n](https://twitter.com/v1z3n)
 
 Aprende desde cero programación backend empleando lenguaje PHP  
 
